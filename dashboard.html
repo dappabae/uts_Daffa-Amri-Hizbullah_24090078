@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <h2>Dashboard</h2>
+        </div>
+        <ul class="menu">
+            <li class="menu-item active" onclick="navigateTo('dashboard.html')">Dashboard</li>
+            <li class="menu-item" onclick="navigateTo('products.html')">List Data Produk</li>
+            <li class="menu-item" onclick="navigateTo('login.html')">Log Out</li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h1>Dashboard</h1>
+            <p>Selamat datang di Dashboard</p>
+        </div>
+
+        <div class="cards-grid" id="summaryCards"></div>
+
+        <div class="btn-container">
+            <a href="products.html" class="btn">List Data Produk</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
